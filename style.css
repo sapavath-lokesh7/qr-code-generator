@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: #64ccc5;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #04364a;
+}
+
+.container {
+  padding: 2rem 0;
+  width: 50%;
+  max-width: 500px;
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  background: #176b87;
+  box-shadow: rgba(11, 11, 11, 0.8) 0px 20px 30px -10px;
+}
+
+.container h1 {
+  padding-bottom: 2.5rem;
+}
+
+.container input {
+  margin-bottom: 1.5rem;
+  border: none;
+  height: 1.8rem;
+  width: 40%;
+  border-radius: 0.3rem;
+  box-shadow: rgba(13, 13, 14, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(7, 8, 8, 0.35) 0px -2px 6px 0px inset;
+  background: #dafffb;
+  outline: none;
+  padding-left: 0.4rem;
+  font-size: 1rem;
+}
+
+::placeholder {
+  color: #64ccc5;
+  font-size: 1rem;
+}
+
+#generate-btn {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #04364a;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgba(11, 11, 11, 0.8) 0px 20px 30px -10px;
+  border-radius: 0.2rem;
+}
+
+#download-link {
+  margin-top: 0.3rem;
+}
+
+#download-link:hover {
+  text-decoration: underline;
+}
